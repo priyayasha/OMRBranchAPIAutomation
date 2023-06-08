@@ -15,6 +15,7 @@ public class GlobalData {
 	private String stateIdNum;
 	private String logToken;
 	private String addressIdNum;
+	private String token;
 	
 	public int getStatusCode() {
 		return statusCode;
@@ -46,6 +47,14 @@ public class GlobalData {
 
 	public void setAddressIdNum(String addressIdNum) {
 		this.addressIdNum = addressIdNum;
+	}
+
+	public String getToken() {
+		return token;
+	}
+
+	public void setToken(String token) {
+		this.token = token;
 	}
 	
 
