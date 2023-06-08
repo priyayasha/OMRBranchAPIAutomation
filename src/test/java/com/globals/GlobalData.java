@@ -16,7 +16,7 @@ public class GlobalData {
 	private String logToken;
 	private String addressIdNum;
 	private String token;
-	private String name;
+	private String naming;
 	
 	public int getStatusCode() {
 		return statusCode;
@@ -58,12 +58,12 @@ public class GlobalData {
 		this.token = token;
 	}
 
-	public String getName() {
-		return name;
+	public String getNaming() {
+		return naming;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setNaming(String naming) {
+		this.naming = naming;
 	}
 	
 
